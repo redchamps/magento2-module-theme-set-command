@@ -1,0 +1,19 @@
+{
+    "name": "redchamps/magento2-module-theme-set-command",
+    "description": "The will allow to set theme by its code via commandline.",
+    "require": {
+    },
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "license": [
+        "MIT"
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "RedChamps\\ThemeSetCommand\\": ""
+        }
+    }
+}
