@@ -87,5 +87,6 @@ class SetThemeByCode extends Command
         } else {
             $output->writeln("<error>No theme found with code {$input->getArgument(self::INPUT_KEY_THEME_CODE)}.</error>");
         }
+        return \Magento\Framework\Console\Cli::RETURN_SUCCESS;
     }
 }
